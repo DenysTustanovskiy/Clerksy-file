@@ -105,3 +105,8 @@ header{
 footer{
     background-color: aqua;
 }
+
+footer nav li a{
+    color: #198c36;
+    text-decoration: none;
+}
