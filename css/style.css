@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Recoleta-samibold';
+    src: local('../fonts/recoleta/Recoleta-SemiBold'), local('Recoleta-SemiBold'),
+        url('../fonts/recoleta/Recoleta-SemiBold.woff2') format('woff2'),
+        url('../fonts/recoleta/Recoleta-SemiBold.woff') format('woff'),
+        url('../fonts/recoleta/Recoleta-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/notosans-regular-webfont.woff') format('woff'),
+         url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+   background-color: #163a16;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.conteiner{
+   max-width: 1248px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+ .menu{
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 15px;
+ }
+
+.menu  li {
+    margin-right: 20px;
+}
+.menu  li a{ 
+    color: #FBFAF7;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    font-family: noto_sansregular;
+}
+
+.menu li:last-of-type a{
+    background-color: #198c36;
+    border-radius: 160px;
+    padding: 15px 25px 15px 25px;
+}
+
+.running{  
+   background-color: #163a16;
+ 
+}
+
+.centr-conteiner{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    background-image: url('../images/Frame2.png');
+    background-size: 738px ;
+    background-repeat: no-repeat;
+    background-position: right 0% bottom;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+}
+.centr-conteiner article{
+    max-width: 475px;
+}
+.centr-conteiner article h1{
+    color: #FBFAF7;
+    font-family: Recoleta-samibold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px; 
+    margin-bottom: 18px;
+    
+}
+.centr-conteiner article p{
+    color: #FBFAF7;
+    font-family: noto_sansregular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 90px;
+    
+}
