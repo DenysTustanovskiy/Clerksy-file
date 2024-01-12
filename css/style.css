@@ -103,7 +103,6 @@ header{
 }
 
 
-
 .we-partner{
     padding-bottom: 120px;
     padding-top: 114px;
@@ -199,7 +198,7 @@ header{
     font-weight: 600;
     line-height: 54px;
     margin-bottom: 27px;
-   
+    max-width: 749px;  
 }
 .conteinet-employees p{
     color: #163A24;
@@ -209,7 +208,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
-   
+    max-width: 760px;
 }
 
 .people{
