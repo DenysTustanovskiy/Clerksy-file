@@ -112,17 +112,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
-.conteiner-put img{
-    padding-left: 98px;
-    padding-right: 49px;
 
-}
-.conteiner-put article{
-    padding-left: 49px;
-    padding-right: 98px;
-}
+
 .conteiner-put article h3{
     color: #163A24;
     font-family: Recoleta;
@@ -150,16 +145,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
 }
-.conteiner-you-dont img{
-   padding-left: 49px;
-   padding-left: 98px;
 
-}
-.conteiner-you-dont article{
-   padding-left: 98px;
-   padding-right: 49px;
-}
 .conteiner-you-dont article h3{
     color: #163A24;
     font-family: Recoleta;
@@ -190,7 +179,7 @@ header{
     margin: auto;
 }
 
-.c-conteiner-we h2{
+.c-conteiner-we h4{
     color: #163A24;
     font-family: Recoleta;
     font-size: 48px;
@@ -221,7 +210,7 @@ header{
     max-width: 1248px;
     margin: auto;
 }
-.hr-production h3{
+.hr-production h4{
     color: #FBFAF7;
     text-align: center;
     font-family: Recoleta;
@@ -304,18 +293,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
 
 }
 
-.conteiner-how-the-scenes article{
-    padding-left: 98px;
-    padding-top: 49px;
 
-}
-.conteiner-how-the-scenes img{
-    padding-left: 49px;
-    padding-right: 98px;
-}
 .conteiner-how-the-scenes article h4{
     color: #163A24;
     font-family: Recoleta;
@@ -427,7 +410,7 @@ header{
     padding-left: 40px;
     padding-bottom: 66px;
     max-width: 353px;width: 100%;
-   
+
 }
 .set-your h4{
     color: #163A24;
@@ -464,7 +447,7 @@ header{
     padding-top: 50px;
     padding-left: 40px;
     padding-bottom: 66px;
-    
+
 
 }
 .know-your img{
@@ -582,7 +565,7 @@ header{
 .time-it::after{
     content: url('../images/absolute2.svg');
     position: absolute; left: 250px; bottom: 85px;
-    
+
 }
 .time-it p{
     color: #163A24;
@@ -613,7 +596,7 @@ header{
     height: 183px;
     background-image: url(../images/becraund.svg);
     position: relative;
-    
+
 
 }
 
@@ -638,7 +621,7 @@ header{
     font-weight: 600;
     line-height: 31.5px;
  }
- 
+
  .book{
     margin: auto;
     max-width: 245px;
@@ -656,7 +639,7 @@ header{
     line-height: normal;
     text-decoration: none;
     margin-left: 15px;
-   
+
  }
 
  .not-just{
@@ -669,8 +652,8 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-left: 98px;
-    padding-right: 98px;
+    padding-left: 128px;
+    padding-right: 128px;
  }
  .downliad{
     padding-top: 136px;
@@ -713,15 +696,17 @@ header{
     padding-top: 120px;
     padding-bottom: 120px;
     position: relative;
-    
+    overflow: hidden;
+
 }
 
 .sec-cet:after{
     content: "";
     background-image: url('../images/Left1.svg');
     width: 300px;
-    height: 400px;
+    height: 395px;
     display: block;
+    bottom: 0%;
     position: absolute;  
     background-repeat: no-repeat;
 
@@ -729,9 +714,11 @@ header{
 .sec-cet::before{
     content: url('../images/right2.svg');
     width: 300px;
-    height: 400px;
+    height: 395px;
     display: block;
-    position: absolute; right: 0px;
+    position: absolute; 
+    bottom: 0%;
+    right: 0px;
     background-repeat: no-repeat;
 }
 
