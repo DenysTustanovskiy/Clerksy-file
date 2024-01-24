@@ -1,0 +1,5 @@
+@madia screen and (max-width:499px) {
+    .menu li a{
+        font-size: 10px;
+    }
+}

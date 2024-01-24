@@ -53,6 +53,7 @@ header{
     line-height: normal;
     text-decoration: none;
     font-family: noto_sansregular;
+    font-size: 16px;
 }
 
 .menu li:last-of-type a{
