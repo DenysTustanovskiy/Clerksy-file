@@ -713,7 +713,8 @@ header{
 
 }
 .sec-cet::before{
-    content: url('../images/right2.svg');
+    content: "";
+    background-image: url('../images/right2.svg');
     width: 300px;
     height: 395px;
     display: block;

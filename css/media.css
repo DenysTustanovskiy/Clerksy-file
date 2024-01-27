@@ -1,5 +1,267 @@
-@madia screen and (max-width:499px) {
-    .menu li a{
-        font-size: 10px;
+@media screen and (max-width:428px) {
+  .conteiner{
+     width: 100%;
+  }
+}
+@media screen and (max-width: 428px) {
+ .menu li a{ 
+    font-size: 10px;
+    
+ }  
+}
+@media screen and (max-width:428px){
+    .centr-conteiner{
+     background-image: none;
+     padding-top: 50px;
+     padding-bottom: 0px;
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:428px){
+    .put-the-section{
+     padding-top: 40px;
+}
+}
+    
+
+@media screen and (max-width:428px){
+    .conteiner-put{
+     display: contents;
+        
+}
+}
+    
+@media screen and (max-width:428px){
+    .conteiner-put article{ 
+    margin-bottom: 50px;
+    padding-left: 20px;  
+      
+}
+}
+    
+@media screen and (max-width:428px){
+    .conteiner-put img{
+     width: 100%;
+}
+}
+    
+@media screen and (max-width:428px){
+    .conteiner-you-dont{ 
+    display: contents;
+}
+}
+
+@media screen and (max-width:428px){
+    .conteiner-you-dont article{ 
+    padding-left: 20px;
+}
+}
+
+@media screen and (max-width:428px){
+    .conteiner-you-dont img{
+     width: 100%;
+}
+}
+ 
+@media screen and (max-width:428px){
+    .we-partner{ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+
+@media screen and (max-width:428px){
+    .images-link{ 
+    display: flex; 
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width:428px){
+    .section-hr{ 
+   padding-bottom: 80px;
+   padding-top: 80px;
+}
+}
+
+@media screen and (max-width:428px){
+    .educates{ 
+    display: flex; 
+    flex-wrap: wrap;
+}
+}
+
+ 
+@media  screen and (max-width:428px) {
+    .employees{ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    }
+} 
+
+
+@media  screen and (max-width:428px) {
+    .people{ 
+    display: none;
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .how-the{ 
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .conteiner-how-the-scenes{ 
+    display: contents;
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .conteiner-how-the-scenes article{ 
+    padding-left: 20px;
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .conteiner-how-the-scenes img{
+    width: 100%; 
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .consider{
+    padding-bottom: 100px;
+      
+    }
+}
+
+
+@media  screen and (max-width:428px) {
+    .conteiner-protect{
+    display: flex; 
+    flex-wrap: wrap; 
+
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .easy-as{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+}
+
+
+@media  screen and (max-width:428px) {
+    .fill-out{
+    display: flex; 
+    flex-wrap: wrap; 
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .fill-out{
+    display: flex;
+    flex-wrap: wrap; 
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .conteiner-fill-out{
+     position: relative;
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .conteiner-fill-out{ 
+    position: relative;
+    }
+}
+@media screen and (max-width:428px) {
+   .conteiner-fill-out::after {
+    position: absolute;
+     -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); 
+    top: 230px; left: 100px;
+   }
+}
+    
+@media  screen and (max-width:428px) {
+    .time-it{ 
+    position: relative;
+    margin-right:0;
+    }
+}
+@media screen and (max-width:428px) {
+   .time-it::after{
+    position: absolute; 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); 
+    top: 230px; left: 100px;
+   }
+}
+
+@media  screen and (max-width:428px) {
+    .simple{ 
+    display: contents;
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .not-just{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+}
+
+
+@media  screen and (max-width:428px) {
+    .downliad{ 
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .simple{ 
+    display: contents;
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .simple img{ 
+    width: 100%;
+    }
+}
+
+@media  screen and (max-width:428px) {
+    .sec-cet{ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+}
+
+
+@media  screen and (max-width:428px) {
+    .sec-cet::after{
+    background-image: none;
+    }
+}
+@media  screen and (max-width:428px) {
+    .sec-cet::before{
+    background-image: none;
     }
 }
