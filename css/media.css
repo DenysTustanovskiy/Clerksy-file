@@ -3,9 +3,18 @@
      width: 100%;
   }
 }
+
+
+@media screen and (max-width: 428px) {
+    .menu li{ 
+       margin-right: 10px;
+       
+    }  
+   }
+
 @media screen and (max-width: 428px) {
  .menu li a{ 
-    font-size: 8px;
+    font-size: 10px;
     
  }  
 }
