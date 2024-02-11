@@ -25,7 +25,14 @@
     box-sizing: border-box;
 }
 
-header{
+ body{
+    background-color: #163a16;
+ }
+ main{
+    background-color: white;
+ }
+
+ header{
    background-color: #163a16;
    padding-top: 20px;
    padding-bottom: 20px;
@@ -37,16 +44,16 @@ header{
    justify-content: space-between;
  
 }
- .menu{
+ .men-nav{
     display: flex;
     padding-top: 21px;
     padding-bottom: 15px;
  }
 
-.menu  li {
+ .men-nav-link {
     margin-right: 20px;
 }
-.menu  li a{ 
+.men-nav-link a { 
     color: #FBFAF7;
     font-style: normal;
     font-weight: 400;
@@ -56,7 +63,7 @@ header{
     font-size: 16px;
 }
 
-.menu li:last-of-type a{
+.men-nav li:last-of-type a{
     background-color: #198c36;
     border-radius: 160px;
     padding: 15px 25px 15px 25px;
@@ -222,14 +229,20 @@ header{
     margin-bottom: 74px;
 }
 
-
 .educates{
-    display: flex;
     justify-content: center;
-    align-items: flex-start;
     margin: auto;
     max-width: 1248px;
+    display: flex;
+    align-items: flex-start;
 }
+
+.owl-carousel .owl-item img{
+    max-width: 245px;
+    width: auto;
+    display: inline-block;
+}
+
 .educates article img{
     margin-right: 108px;
     margin-left: 108px;
@@ -243,6 +256,8 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
+    max-width: 295px;
+    
 }
 
 .employees{
@@ -595,7 +610,7 @@ header{
     padding-bottom: 23px;
     width: 285px;
     height: 183px;
-    background-image: url(../images/becraund.svg);
+    background-image: url('../images/becraund.svg');
     position: relative;
 
 
@@ -765,4 +780,27 @@ header{
     padding: 15px 25px 15px 25px;
  }
 
- 
+
+
+ .owl-dots .owl-dot span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px;
+    
+ }
+
+ .owl-dots{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+ }
+
+ .owl-dots .owl-dot.active span{
+    background-color: #198c36;
+ }
+ .cd-3d-nav-trigger{
+    display: none;
+ }
