@@ -806,7 +806,138 @@
  }
 
 
-.stay_new{
+.stay_bet{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f2efe6;;
+}
+
+.conteiner_stay{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stay_up{
+    max-width: 590px;
+    height: 120px;
+
+}
+
+.conteiner_stay h3{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 112%;
+    color: #163a24;
+    margin-bottom: 20px;
+}
+.conteiner_stay p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #163a24;
+    max-width: 570px;
+}
+
+.form_text{
+    max-width: 553px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f2efe6 ;
+    border-radius: 255px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.form_text input{
+    width: 80%;
+    padding: 25px;
+    background-color: transparent;
+    border: none;
+   
+}
+
+.but_sing{
+    width: 111px;
+    height: 52px;
+    border-radius: 160px;
+    background: #15762e;
+}
+.but_sing button{
+    background-color: #15762e;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fbfaf7;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.stay_up a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #198c36;
+    text-decoration: none;
+}
+
+
+.p_compani{
     background-color: white;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.conteiner_clerksy{
+    max-width: 1248px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px ; color:( #f2efe6) ; 
+    
+    
+}
+
+.conteiner_clerksy p{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #163a24;
+}
+
+.tabl_img{
+    display: flex;
+   
+}
+.tabl_img li{
+    margin-right: 15px;
+}
+
+.conteiner_cler_inc{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1248px;
+    margin: auto;
+}
+.p_rivacy{
+    display: flex;
+}
+
+.p_rivacy li a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #198c36;
 }
